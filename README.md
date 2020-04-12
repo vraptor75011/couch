@@ -3,7 +3,7 @@
 [![Pub](https://img.shields.io/pub/v/angel_couch.svg)](https://pub.dartlang.org/packages/angel_mongo)
 [![build status](https://travis-ci.org/angel-dart/mongo.svg)](https://travis-ci.org/angel-dart/mongo)
 
-MongoDB-enabled services for the Angel framework.
+couchDB-enabled services for the Angel framework.
 
 # Installation
 
@@ -11,12 +11,13 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  angel_mongo: ^2.0.0
+  angel_couch:
+    git: 'https://github.com/vraptor75011/couch'
 ```
 
 # Usage
 
-This library exposes one main class: `MongoService`.
+This library exposes one main class: `CouchService`.
 
 ## Model
 
